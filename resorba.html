@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>resorba</title>
+	<link rel="stylesheet" href="css/flax.css">
+	<link rel="stylesheet" href="css/libs.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="preload">
+		<div class="sk-double-bounce">
+			<div class="sk-child sk-double-bounce-1"></div>
+			<div class="sk-child sk-double-bounce-2"></div>
+		</div>
+	</div>
+	
+	
+	<header class="header">
+		<div class="u-header">
+			<div class="container flex center spb">
+				<div class="col--location">Алматы, ул.Толе Би 69</div>
+				<div class="col--email"><a href="mailto: info@jsconsulting.kz">info@jsconsulting.kz</a></div>
+				<div class="socials flex">
+					<a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+				</div>
+				<div class="col--lang dropdown"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;<span>Русский</span> 
+					<a href="#" class="arr open-dd"></a>
+					<div class="dropdown-menu">
+						<li><a href="#">English</a></li>
+						<li><a href="#">Казахский</a></li>
+					</div>
+				</div>
+				<div class="col--phone dropdown"><a href="tel:+7 (701) 713 09 90">+7 (701) 713 09 90</a>
+					<a href="#" class="arr open-dd"></a>
+					<div class="dropdown-menu">
+						<li><a href="tel:+7 (701) 713 09 90">+7 (701) 713 09 90</a></li>
+						<li><a href="tel:+7 (701) 713 09 90">+7 (701) 713 09 90</a></li>
+					</div>			
+				</div>
+			</div>
+		</div>
+	
+		<div class="d-header">
+			<div class="container flex center spb">
+				<div class="nav--btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<a href="index.html" class="img-c logo-link"><img src="./img/logo.png" alt=""></a>
+				<nav class="flex spb center nav" id="navigation">
+					<a href="about.html" class="active">О компании</a>
+					<a href="products.html">Услуги</a>
+					<a href="partners.html">Партнеры</a>
+					<a href="#">Сотрудничество</a>
+					<a href="#">Карьера</a>
+					<a href="contacts.html">Контакты</a>
+				</nav>
+				<div class="cart">
+					<a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+					<a href="cart.html">Корзина (3)</a>
+				</div>
+	
+				<div class="col--lang dropdown m-show"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;
+					<a href="#" class="arr open-dd"></a>
+					<div class="dropdown-menu">
+						<li><a href="#">English</a></li>
+						<li><a href="#">Казахский</a></li>
+					</div>
+				</div>
+	
+					<div class="dropdown m-show"><a href="tel:+7 (701) 713 09 90" class="col--phone"></a>
+						<a href="#" class="arr open-dd"></a>
+						<div class="dropdown-menu">
+							<li><a href="tel:+7 (701) 713 09 90">+7 (701) 713 09 90</a></li>
+							<li><a href="tel:+7 (701) 713 09 90">+7 (701) 713 09 90</a></li>
+						</div>			
+					</div>
+	
+			</div>
+		</div>
+	</header>
+	
+	<div class="modal" id="success">
+		<div class="modal__layer"></div>
+		<div class="modal__block">
+			<div class="close"></div>
+			<h4>Ваш заказ успешно оформлен!</h4>
+		</div>
+	</div>
+	
+	<div class="modal" id="modal--success">
+		<div class="modal__layer"></div>
+		<div class="modal__block">
+			<div class="close"></div>
+			<h4>Добавлено в корзину</h4>
+		</div>
+	</div>
+	
+	<div class="modal" id="contacts-page-modal">
+		<div class="modal__layer"></div>
+		<div class="modal__block">
+			<div class="close"></div>
+			<h4>Ваша заявка успешно отправлена</h4>
+		</div>
+	</div>
+	<div class="wrapper page resorba-page">
+
+    <section class="breadcrumbs">
+      <div class="container">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="partners.html">Партнеры</a></li>
+          <li><a href="#" class="curr">RESORBA</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <main>
+      <div class="container">
+        <h1>RESORBA</h1>
+        <div class="grid">
+          <div class="l-col">
+            <div class="cat-acc-unit">
+              <a href="#" class="cat-title">Шовные материалы</a>
+              <ul class="check--list">
+                <li><a href="#">Рассасывающиеся</a></li>
+                <li><a href="#">Нерассасывающиеся</a></li>
+                <li><a href="#">Кассеты</a></li>
+              </ul>
+            </div>
+  
+            <div class="cat-acc-unit">
+              <a href="#" class="cat-title">Иглы хирургические</a>
+              <ul class="check--list">
+                <li><a href="#">Рассасывающиеся</a></li>
+                <li><a href="#">Нерассасывающиеся</a></li>
+                <li><a href="#">Кассеты</a></li>
+              </ul>
+            </div>
+  
+            <div class="cat-acc-unit">
+              <a href="#" class="cat-title">Клей медицинский LiquiBand</a>
+              <ul class="check--list">
+                <li><a href="#">Рассасывающиеся</a></li>
+                <li><a href="#">Нерассасывающиеся</a></li>
+                <li><a href="#">Кассеты</a></li>
+              </ul>
+            </div>
+  
+            <div class="cat-acc-unit">
+              <a href="#" class="cat-title">Коллагеновая продукция</a>
+              <ul class="check--list">
+                <li><a href="#">Рассасывающиеся</a></li>
+                <li><a href="#">Нерассасывающиеся</a></li>
+                <li><a href="#">Кассеты</a></li>
+              </ul>
+            </div>
+  
+            <div class="cat-acc-unit">
+              <a href="#" class="cat-title">Стоматология</a>
+              <ul class="check--list">
+                <li><a href="#">Рассасывающиеся</a></li>
+                <li><a href="#">Нерассасывающиеся</a></li>
+                <li><a href="#">Кассеты</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="r-col">
+            <form action="">
+              <table>
+                <tr class="title-row">
+                  <th>Фото</th>
+                  <th>Название продукции</th>
+                  <th>Количество</th>
+                  <th colspan="2">Цена</th>
+                </tr>
+  
+                <tr>
+                  <td class="img-c"><img src="./img/p1-1.png" alt=""></td>
+                  <td>ПГА-РЕСОРБА</td>
+                  <td>
+                    <div class="counter flex">
+                      <button class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                      <input type="text" value="99" class="input-counter">
+                      <button class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                  </td>
+                  <td>99 000 тг.</td>
+                  <td><div class="btn open--modal" data-modal="#modal--success" type="submit">В корзину</div></td>
+                </tr>
+
+                <tr>
+                  <td class="img-c"><img src="./img/p1-2.png" alt=""></td>
+                  <td>ПГА-РЕЗОКВИК</td>
+                  <td>
+                    <div class="counter flex">
+                      <button class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                      <input type="text" value="1" class="input-counter">
+                      <button class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                  </td>
+                  <td>99 000 тг.</td>
+                  <td><div class="btn open--modal" data-modal="#modal--success" type="submit">В корзину</div></td>
+                </tr>
+
+                <tr>
+                  <td class="img-c"><img src="./img/p1-3.png" alt=""></td>
+                  <td>ГЛИКОЛОН</td>
+                  <td>
+                    <div class="counter flex">
+                      <button class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                      <input type="text" value="1" class="input-counter">
+                      <button class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                  </td>
+                  <td>99 000 тг.</td>
+                  <td><div class="btn open--modal" data-modal="#modal--success" type="submit">В корзину</div></td>
+                </tr>
+
+                <tr>
+                  <td class="img-c"><img src="./img/p1-4.png" alt=""></td>
+                  <td>КЕТГУТ</td>
+                  <td>
+                    <div class="counter flex">
+                      <button class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                      <input type="text" value="1" class="input-counter">
+                      <button class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                  </td>
+                  <td>99 000 тг.</td>
+                  <td><div class="btn open--modal" data-modal="#modal--success" type="submit">В корзину</div></td>
+                </tr>
+
+                <tr>
+                  <td class="img-c"><img src="./img/p1-5.png" alt=""></td>
+                  <td>ПГА-РЕСОРБА</td>
+                  <td>
+                    <div class="counter flex">
+                      <button class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                      <input type="text" value="1" class="input-counter">
+                      <button class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                  </td>
+                  <td>99 000 тг.</td>
+                  <td><div class="btn open--modal" data-modal="#modal--success" type="submit">В корзину</div></td>
+                </tr>
+
+                <tr>
+                  <td class="img-c"><img src="./img/p1-1.png" alt=""></td>
+                  <td>КЕТГУТ</td>
+                  <td>
+                    <div class="counter flex">
+                      <button class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                      <input type="text" value="1" class="input-counter">
+                      <button class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                  </td>
+                  <td>99 000 тг.</td>
+                  <td><div class="btn open--modal" data-modal="#modal--success" type="submit">В корзину</div></td>
+                </tr>
+
+                <tr>
+                  <td class="img-c"><img src="./img/p1-2.png" alt=""></td>
+                  <td>ПГА-РЕСОРБА</td>
+                  <td>
+                    <div class="counter flex">
+                      <button class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                      <input type="text" value="1" class="input-counter">
+                      <button class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                  </td>
+                  <td>99 000 тг.</td>
+                  <td><div class="btn open--modal" data-modal="#modal--success" type="submit">В корзину</div></td>
+                </tr>
+
+                <tr>
+                  <td class="img-c"><img src="./img/p1-3.png" alt=""></td>
+                  <td>ПГА-РЕЗОКВИК</td>
+                  <td>
+                    <div class="counter flex">
+                      <button class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                      <input type="text" value="1" class="input-counter">
+                      <button class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                  </td>
+                  <td>99 000 тг.</td>
+                  <td><div class="btn open--modal" data-modal="#modal--success" type="submit">В корзину</div></td>
+                </tr>
+
+                <tr>
+                  <td class="img-c"><img src="./img/p1-4.png" alt=""></td>
+                  <td>КАПРОЛОН</td>
+                  <td>
+                    <div class="counter flex">
+                      <button class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                      <input type="text" value="1" class="input-counter">
+                      <button class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                  </td>
+                  <td>99 000 тг.</td>
+                  <td><div class="btn open--modal" data-modal="#modal--success" type="submit">В корзину</div></td>
+                </tr>
+
+                <tr>
+                  <td class="img-c"><img src="./img/p1-5.png" alt=""></td>
+                  <td>КЕТГУТ</td>
+                  <td>
+                    <div class="counter flex">
+                      <button class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                      <input type="text" value="1" class="input-counter">
+                      <button class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                  </td>
+                  <td>99 000 тг.</td>
+                  <td><div class="btn open--modal" data-modal="#modal--success" type="submit">В корзину</div></td>
+                </tr>
+
+                <tr>
+                  <td class="img-c"><img src="./img/p1-5.png" alt=""></td>
+                  <td>КЕТГУТ</td>
+                  <td>
+                    <div class="counter flex">
+                      <button class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                      <input type="text" value="1" class="input-counter">
+                      <button class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    </div>
+                  </td>
+                  <td>99 000 тг.</td>
+                  <td><div class="btn open--modal" data-modal="#modal--success" type="submit">В корзину</div></td>
+                </tr>
+              </table>
+            </form>
+
+            <div class="pagination">
+              <div class="container flex center">
+                <ul class="flex">
+                  <li><a href="#" class="arr prev"></a></li>
+                  <li><a href="#" class="active">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#" class="arr next"></a></li>
+                </ul>
+              </div>
+            </div>
+
+            <p><b class="ttu">resorba</b></p>
+              <p>1931 г.  Компания RESORBA была основана в г. Нюрнберге, Бавария</p>
+              <p>1951 г. Обработка кишок для производства нашего собственного шовного материала – кетгута</p>
+              <p>1995 г. Внедрение синтетических рассасывающихся нитей PGA Resorba на рынок</p>
+              <p>Июль 2001 года.  Непрерывный рост RESORBA привел к изменениям: произошло слияние трех городских объектов и были приобретены современные новые помещения в промышленной зоне Нюрнберг-Фойхта</p>
+              <p>2012 г. АМS - Advanced Medical Solutions приобретает LiquiBand, партнера-дистрибьютора RESORBA.</p>
+            <p><b class="ttu">RESORBA – Казахстан</b></p>
+              <p>Более 5-ти лет успешной работы на Казахстанском рынке шовных хирургических материалов.</p>
+              <p>Эксклюзивные дистрибьюторы  немецкого производителя шовных хирургических материалов и игл -  "RESORBA Medical GmbH" обладает уникальной возможностью бесперебойного снабжения медицинских учреждений, частнопрактикующих хирургов, торгующих компаний шовными хирургическими материалами в большом ассортименте (более 2 500 комбинаций) со склада в Алматы.</p>
+              <p>Качество шовных материалов гарантировано международными сертификатами (СЕ, ISO) </p>
+              <p>Мы обеспечим высококачественный сервис по организации поставок стерильных материалов для всех хирургических специальностей.</p>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <footer class="footer">
+    <div class="u-footer">
+      <div class="container flex spb">
+        <div class="f-col logo-col">
+          <div class="img-c">
+            <img src="./img/logo-g.png" alt="">
+            <p class="slogan">С заботой<br> о вашей семье!</p>
+          </div>
+        </div>
+        <div class="f-col info-col">
+          <p class="col-title">Информация</p>
+          <ul class="check--list">
+            <li><a href="about.html" class="active">О компании</a></li>
+            <li><a href="#">Сотрудничество</a></li>
+            <li><a href="#">Карьера</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="f-col info-col">
+          <p class="col-title">Услуги</p>
+          <ul class="check--list">
+            <li><a href="">Консалтинговые усулуги</a></li>
+            <li><a href="">Образовательный центр </a></li>
+            <li><a href="">Регистрация ЛС, БАД, косметика, ИМН</a></li>
+          </ul>
+        </div>
+        <div class="f-col f-cts">
+          <p class="col-title">Контакты</p>
+          <div class="col--location">г. Алматы, ул Толе би 69, офис 31</div>
+          <div class="col--phone"><a href="tel: +7 (701) 713 09 90">+7 (701) 713 09 90</a></div>
+          <div class="col--email"><a href="mailto: info@jsconsulting.kz">info@jsconsulting.kz</a></div>
+          <div class="socials flex">
+            <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  				  <a href="#" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-footer">
+      <div class="container flex spb center">
+        <p>Copyright © 2020 ТОО «JS Consulting»</p>
+        <a href="https://www.artmedia.kz/" target="_blank">Создание сайта <img src="./img/artmedia.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/libs.js"></script>
+  <script> new WOW().init(); </script>
+  <script type="text/javascript" src="js/main.js"></script>
+  </body>
+  </html>
